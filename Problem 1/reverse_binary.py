@@ -2,7 +2,7 @@
 Complete the following python code to print the reverse binary representation of positive integer number entered by the user.
 
 Name: Mason Anderson
-Lab Time: 2/16/24 3:39 PM
+Lab Time: 2/16/24 3:40 PM
 
 """
 
@@ -23,7 +23,7 @@ def reverse_binary():
             binary_num = str(digit)
             start = False
         else:
-            binary_num = str(digit) + binary_num
+            binary_num = binary_num + str(digit) 
 
     print (binary_num)
 
