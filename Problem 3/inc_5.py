@@ -12,7 +12,7 @@ def inc_5():
 
     x = num1
 
-    if num2 >= num1 + 5:
+    if num2 >= num1:
         
         while num2 >= x:
             print (f'{x}', end=' ')
